@@ -1,0 +1,10 @@
+[package]
+name = "biblical_gui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+iced = "0.10"
+rusqlite = { version = "0.28.0", features = ["functions"] }
+regex = "1.7"
